@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+    <head><title>David Yurman, Gamechanger - Rocio's Jewelry Blog</title>
+        <script type="text/javascript">
+        function tb8_makeArray(n){
+        this.length = n;
+        return this.length;
+        }
+        tb8_messages = new tb8_makeArray(3);
+        tb8_messages[0] = "David Yurman, Gamechanger";
+        tb8_messages[1] = "David Yurman, Gamechanger";
+        tb8_messages[2] = "David Yurman, Gamechanger";
+        tb8_messages[3] = "David Yurman, Gamechanger";
+        tb8_rptType = 'infinite';
+        tb8_rptNbr = 5;
+        tb8_speed = 100;
+        tb8_delay = 2000;
+        var tb8_counter=1;
+        var tb8_currMsg=0;
+        var tb8_tekst ="";
+        var tb8_i=0;
+        var tb8_TID = null;
+        function tb8_pisi(){
+        tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+        document.title = tb8_tekst;
+        tb8_sp=tb8_speed;
+        tb8_i++;
+        if (tb8_i==tb8_messages[tb8_currMsg].length){
+        tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+        }
+        if (tb8_currMsg == tb8_messages.length){
+        if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+        clearTimeout(tb8_TID);
+        return;
+        }
+        tb8_counter++;
+        tb8_currMsg = 0;
+        }
+        tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+        }
+        tb8_pisi()
+        </script>
+    <link rel="stylesheet" href="../style.css" />
+    </head>
+
+<body>
+    
+<div id="header">
+        
+        
+    <a href="../index.html" title="Refresh"><img src="../images/headerimage.png" alt="Photo of Rocio Sanchez on a light grey background"/></a>
+        
+        
+    <h1><a href="../index.html" title="Refresh">Rocio's Jewelry Blog</a></h1>
+
+
+    </div>
+        
+
+    
+    
+<div>
+    <div id="dyportrait"><img src="../images/ddnyc.jpg" alt="David Yurman portrait"/></div>
+    
+    <h2>NYC's Diamond District</h2>
+    
+<p>The Diamond District is between Fifth Avenue and Sixth Avenue in Midtown Manhattan. The district was created when dealers moved north from an earlier district near Canal Street and the Bowery that was created in the 1920s, and from a second district located in the Financial District, near the intersection of Fulton and Nassau Streets, which started in 1931, and also at Maiden Lane, which had existed since the 18th century. The move uptown started in 1941. The district grew in importance when Nazi Germany invaded the Netherlands and Belgium, forcing thousands of Orthodox Jewish people in the diamond business to flee Antwerp and Amsterdam and settle in New York City. Most of them remained after World War II, and remain a dominant influence in the Diamond District. A notable, long-time anomaly of the district was the famous Gotham Book Mart, a bookstore, which was located at 41 West 47th Street from 1946 to 2004.</p>
+
+<p>The area is one of the primary centers of the global diamond industry (along with London – rough stones; the Antwerp diamond district in Belgium – historical but waning; Mumbai, India – increasing in significance; Diamond Exchange District, Ramat Gan, Israel – also growing; and Johannesburg, South Africa – the major historical source),[citation needed] as well as the premier center for jewelry shopping in the city. It is one of the largest diamond and jewelry districts in the United States, along with Jewelers' Row, Philadelphia and Los Angeles's Jewelry District, and it is the second oldest surviving jewelry district in the United States after Jewelers' Row, Philadelphia. Total receipts for the value of a single day's trade on the block average $400 million. An estimated 90% of diamonds in the United States enter through New York. There are 2,600 independent businesses located in the district, nearly all of them dealing in diamonds or jewelry. Most are located in booths at one of the 25 "exchanges" in the district, and in a public corridor to 46th Street. Commission based hawkers are also a common sight and they usually solicit business for stores located on the street level.</p>
+
+<p>Many deals are finalized by a simple, traditional blessing and handshake. The Diamond Dealers Club is an exclusive club that acts as a de facto diamond exchange and has its own synagogue. Retailers with shops line the streets outside. Above the bazaar is the Gemological Institute of America which trains gem dealers.</p>
+
+    
+    <iframe class="float-right" width="420" height="315" src="https://www.google.com/maps/embed/v1/place?q=diamond+district&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU" frameborder="0" allowfullscreen></iframe>    
+    <p>Merchants in the Diamond District sell diamonds of virtually every size, shape and quality. You can buy a loose (unset stone), a stone that is already set in jewelry or bring in your own stone and choose a setting from thousands of different styles.</p>
+
+    <p>In addition to diamonds, you will find colored gemstones, pearls, gold jewelry, platinum jewelry, watches, antique and estate jewelry and lots of places that do jewelry repair, watch repair, engraving, pearl restringing and stone setting.</p>
+
+    <p>Some jewelers on 47 th Street have their own shops like jewelry stores you're probably used to. But most retailers have booths in the 25 jewelry “exchanges” scattered throughout the Diamond District. In each exchange, there are up to 100 separate independent jewelry businesses all under one roof. In most cities in America , you have to travel to the next mall down the road. In the 47 th Street Diamond district, you step five paces to your left or right and you will see a different jeweler with a totally different selection of items.</p>
+<div class="clear"></div>
+
+
+    </div>
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,177 @@
+body {
+    padding: 50px
+}
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff9797;
+}
+
+table {
+    text-align: center;
+    padding: 40px;
+    /* How to select rows and adjust their width? */
+}
+
+div {
+    font-family: georgia;
+    padding: 20px;
+    min-width: 200px;
+    
+}
+
+/* Header */
+
+#header {
+    margin-bottom: 100px;
+}
+
+#header img { 
+    max-width: 100%; 
+    height: auto;
+    width: auto;
+    display: block;
+    position: relative; 
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: -200px;
+    margin-right: auto;
+}
+
+#header h1 { 
+    position: relative; 
+    top: -20px; 
+    left: 10px; 
+    width: 100%; 
+    font-size: 8vw;
+    max-height: 100px;
+}
+
+nav {
+    position: absolute; 
+    top: 200px; 
+    left: 300px; 
+}
+
+nav>li {
+    text-align: center;
+}
+
+/* Content */
+
+
+#dy {
+    margin-bottom: -200px;
+}
+
+#dy img{
+    max-width: 100%; 
+    height: auto;
+    width: auto;
+    display: block;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dd img{
+    max-width: 100%; 
+    margin-bottom: 
+    height: auto;
+    width: auto;
+    display: block;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blogName {
+    position: relative; 
+    top: -150px; 
+    left: 30px; 
+    width: 80%; 
+    font-size: 7vw;
+}
+
+#about img {
+    max-width: 100%; 
+    height: auto;
+    width: auto;
+    display: block;
+    position: relative; 
+    margin-left: auto;
+    margin-top: -80px;
+    margin-bottom: -200px;
+    margin-right: auto;
+    padding-bottom: 150px;
+}
+
+#aboutMe {
+    position: relative; 
+    top: -90px; 
+    left: 10px; 
+    width: 100%; 
+    font-size: 8vw;
+    max-height: 100px;
+}
+
+/* For Blog One */
+
+
+
+
+#dyportrait img {
+    max-width: 100%; 
+    height: auto;
+    width: auto;
+    display: block;
+    position: relative; 
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: -200px;
+    margin-right: auto;
+    padding-bottom: 150px;
+}
+
+h2 {
+    position: relative; 
+    top: -140px; 
+    left: 10px; 
+    width: 80%; 
+    font-size: 7vw;
+    color: #ff9797;
+}
+
+
+.imageContainer {
+    width:500px; 
+    height:500px; 
+    background-image: url(images/dybracelet.jpg);
+    position: relative;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    margin-right: auto;
+    max-width: 100%;
+ }
+
+.float-right {
+float: right;
+width: 65%;
+}
+
+#vid {
+    margin-bottom: 921312px;
+}
+
+/* What exactly does min-width and min-height do? */

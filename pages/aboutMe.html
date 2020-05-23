@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    
+    <head><title>David Yurman, Gamechanger - Rocio's Jewelry Blog</title>
+        <script type="text/javascript">
+        function tb8_makeArray(n){
+        this.length = n;
+        return this.length;
+        }
+        tb8_messages = new tb8_makeArray(3);
+        tb8_messages[0] = "About Me";
+        tb8_messages[1] = "About Me";
+        tb8_messages[2] = "About Me";
+        tb8_messages[3] = "About Me";
+        tb8_rptType = 'infinite';
+        tb8_rptNbr = 5;
+        tb8_speed = 100;
+        tb8_delay = 2000;
+        var tb8_counter=1;
+        var tb8_currMsg=0;
+        var tb8_tekst ="";
+        var tb8_i=0;
+        var tb8_TID = null;
+        function tb8_pisi(){
+        tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+        document.title = tb8_tekst;
+        tb8_sp=tb8_speed;
+        tb8_i++;
+        if (tb8_i==tb8_messages[tb8_currMsg].length){
+        tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+        }
+        if (tb8_currMsg == tb8_messages.length){
+        if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+        clearTimeout(tb8_TID);
+        return;
+        }
+        tb8_counter++;
+        tb8_currMsg = 0;
+        }
+        tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+        }
+        tb8_pisi()
+        </script>
+    <link rel="stylesheet" href="../style.css" />
+    </head>
+
+<body>
+    
+<div id="header">
+        
+        
+    <a href="../index.html" title="Refresh"><img src="../images/headerimage.png" alt="Photo of Rocio Sanchez on a light grey background"/></a>
+        
+        
+    <h1><a href="../index.html" title="Refresh">Rocio's Jewelry Blog</a></h1>
+
+
+    </div>
+        
+
+    
+    
+<div>
+    <div id="dyportrait"><img src="../images/withfriends.png" alt="Rocio with Friends"/></div>
+    
+    <h2>About the Blogger</h2>
+
+     
+            <p>My name is Rocio Sanchez. I'm a 21 year old student and marketer from Queens, New York. I was born in NYC but I lived a lot of my life in Dominican Republic; my parents immigrated from there in the 80s.</p>
+        
+            <p>Now? I'm a sixth semester junior at the Fashion Institute of Technology. I study Advertising and Marketing Communications and minor in French. I anticipate graduating with my bachelor's degree in the winter of 2017. I'm entertaining the idea of getting my master's degree in Paris at L'&Eacute;cole Superieure de Publicit&eacute;, but I'll seriously consider that for a while. Money doesn't grow on trees, you know.</p>
+    
+    
+    <p>This blog is about the jewelry industry. I worked with a small jewelry company through the summer and found the industry very fascinating. This blog is a way for me to explore that!</p>
+        
+            <p>But jewelry isn't really my niche. I'm actually really involved in the LGBT community! I have a project called "The LGBT Masterlist Project". As a member of the community I felt a personal responsibility to use my professional skills as a marketer and bring valuable content to my followers on my personal Tumblr blog.</p>
+    
+            <p>At the end of the project, I made a video to accompany the project. The point of the video was to add substance to my content, a face behind a project. It really helped get more followers behind me too!</p> 
+        
+            <p>Check it out:</p>
+            
+          <div class="vid">  <video poster=../images/hello%20goodbi.jpg
+                   width="500" preload loop controls>
+                 <source src="../videos/HELLO%20GOODBI%20-%20MY%20FIRST%20VLOG.webm" type="video/webm"><source src="../videos/HELLO%20GOODBI%20-%20MY%20FIRST%20VLOG.mp4" type="video/mp4">
+                        </video></div>
+
+</div>
+    
+    
+    
+    
+</body>
+</html>
